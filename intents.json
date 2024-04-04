@@ -1,0 +1,73 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hey there!",
+        "Hi!",
+        "Hello :)",
+        "What's up?",
+        "Hey, how's it going?"
+      ],
+      "responses": [
+        "Hey! What's on your mind?",
+        "Hello! Ready to chat?",
+        "Hi there! What can I do for you?",
+        "Hey! How can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Take care", "Catch you later"],
+      "responses": [
+        "Bye! Have a great day!",
+        "See you later! Chat soon!",
+        "Take care! Until next time!",
+        "Catch you later! Stay awesome!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Appreciate it", "Thanks a bunch!"],
+      "responses": ["You're welcome!", "Glad I could assist!", "No problem!"]
+    },
+    {
+      "tag": "topics",
+      "patterns": [
+        "What's new?",
+        "Tell me something interesting",
+        "Got any cool stories?"
+      ],
+      "responses": [
+        "I heard an interesting fact: Penguins can jump up to 6 feet in the air!",
+        "Did you know that honey never spoils?",
+        "Here's something cool: The Great Wall of China is over 13,000 miles long!"
+      ]
+    },
+    {
+      "tag": "jokes",
+      "patterns": [
+        "Tell me a joke!",
+        "I could use a laugh",
+        "Got any jokes?"
+      ],
+      "responses": [
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "What do you call fake spaghetti? An impasta!",
+        "Why did the scarecrow win an award? Because he was outstanding in his field!"
+      ]
+    },
+    {
+      "tag": "emotions",
+      "patterns": [
+        "How are you feeling?",
+        "What's your mood today?",
+        "Are you having a good day?"
+      ],
+      "responses": [
+        "I'm just a bot, but I'm here to help you!",
+        "I'm programmed to assist you. How can I be of service?",
+        "I'm here and ready to chat with you!"
+    ]
+    }]
+}
